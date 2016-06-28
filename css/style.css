@@ -1,0 +1,137 @@
+@font-fase {
+	font-family: Open Sans;
+	src: url(../fonts/2211.ttf);
+}
+.main {
+	height:950px;
+	width: 1366px;
+	margin: 0px auto;
+	background-color: #f9f9f9;
+}
+.conteiner {
+	height: 950px;
+	width: 1060px;
+	background-color: #ffffff;
+	margin: -40px auto;
+	border-left: 1px solid #c8c8c8;
+	border-right: 1px solid #c8c8c8;
+}
+.hedder {
+	height: 200px;
+	width: 1060px;
+	margin:auto;
+	padding:auto;
+}
+.logo {
+	width: 145px;
+	height: 40px;
+	margin:50px 50px 40px;
+}
+
+.top_panel {
+	width: 966px;
+	height: 40px;
+	margin: 40px 50px;
+	background-image: url(../img/top_panel.jpg)
+}
+#top_menu {
+    list-style-type: none;
+    width: 966px;
+ }
+ #top_menu li {
+ 	display: inline;
+ }
+#top_menu li a {
+	display: inline-block;
+	width: 150px;
+	line-height: 40px;
+	font-size: 17px;
+	font-family: Open Sans, sans-serif;
+	text-align: center;
+	text-decoration: none;
+	color:#ffffff;
+}
+#top_menu a:hover {
+	background: #3e3e3e;
+	border-right: 1px solid #838383;
+	border-left: 1px solid #838383;
+}
+.left_bar {
+	float: left;
+	clear: none
+	width: 240px;
+	height: 240px;
+	margin:0px 0px 0px 50px;
+}
+#left_menu {
+	width: 240px;
+}
+#left_menu li a {
+	display: block;
+	padding:0px 0px 0px 40px;
+	height: 40px;
+	border:1px solid #c8c8c8;
+	font-family: Open Sans, sans-serif;
+	font-size: 14px;
+	line-height: 40px;
+	text-decoration: none;
+	color:#656363;
+}
+#left_menu a:hover {
+	padding: 0px 0px 0px 60px;
+	background: #f9f9f9;
+}
+.content {
+	float:left;
+	width:680px;
+}
+.content img {
+	width:680px;
+	border: 1px solid #c8c8c8;
+	margin:0px 42px;
+}
+.content p {
+	width:600px;
+	margin:10px 75px 75px 75px;
+	font-family: Open Sans, sans-serif;
+	font-size:14px;
+	line-height: 1.5;
+	color:#2c2c2c;
+}
+.footer {
+	clear:both;
+	width: 960px;
+	height: 40px;
+	margin:auto;
+	background: #e1e1e1;
+}
+#bottom_menu {
+    list-style-type: none;
+    width: 966px;
+}
+#bottom_menu li {
+ 	display: inline;
+}
+#bottom_menu li a {
+	display: inline-block;
+	width: 150px;
+	line-height: 40px;
+	font-size: 14px;
+	font-family: Open Sans, sans-serif;
+	text-align: center;
+	text-decoration: none;
+	color:#2c2c2c;
+}
+#bottom_menu a:hover {
+	text-decoration: underline;
+}
+.rights {
+	display: block;
+	float:right;
+	padding:0px 20px;
+	color:#2c2c2c;
+	font-family: Open Sans, sans-serif;
+	font-size: 14px;
+	line-height: 40px;
+}
+	
